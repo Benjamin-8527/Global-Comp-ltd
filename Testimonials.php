@@ -123,7 +123,7 @@
 <!-- Sidebar -->
 <div class="sidebar">
   <h2><i class="fas fa-globe"></i> GLOBAL</h2>
-  <a href="home page.html"><i class="fas fa-home"></i> Home</a>
+  <a href="index.html"><i class="fas fa-home"></i> Home</a>
   <a href="about us.php"><i class="fas fa-users"></i> About Us</a>
   <a href="Services.php"><i class="fas fa-cogs"></i> Services</a>
   <a href="Testimonials.php" class="active"><i class="fas fa-comment-dots"></i> Testimonials</a>
@@ -155,3 +155,4 @@
 
 </body>
 </html>
+
