@@ -240,7 +240,7 @@ $customers = $conn->query("SELECT COUNT(*) as count FROM customers")->fetch_asso
         </div>
     </div>
 
-    <a href="home page.html" class="back-home">⬅ Back to Home Page</a>
+    <a href="index.html" class="back-home">⬅ Back to Home Page</a>
 
     <footer>
         &copy; <?= date("Y") ?> Global Computer Ltd. All Rights Reserved.
@@ -249,3 +249,4 @@ $customers = $conn->query("SELECT COUNT(*) as count FROM customers")->fetch_asso
 
 </body>
 </html>
+
