@@ -253,8 +253,9 @@ $result = $conn->query($sql);
         <?php endif; ?>
     </div>
 
-    <a href="home page.html" class="back-home">⬅ Back to Home Page</a>
+    <a href="index.html" class="back-home">⬅ Back to Home Page</a>
 </div>
 
 </body>
 </html>
+
