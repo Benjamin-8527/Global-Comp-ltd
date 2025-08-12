@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GLOBAL COMPUTERS ltd.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 300px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 48px;
+      letter-spacing: 1px;
+	  color: white;
+	   background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav a i {
+      margin-right: 6px;
+    }
+
+    nav a:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .hero {
+      background: url('web2 bg.jpeg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px #000;
+    }
+	.marquee{
+      font-size: 42px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px black;
+	  }
+
+    .hero button {
+      padding: 12px 25px;
+      font-size: 16px;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero button:hover {
+      background-color: #0056b3;
+    }
+    .section {
+      background-color: white;
+      color: black;
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: #4CAF50;
+    }
+
+    .section p,
+    .section li,
+    .section blockquote {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section ul li::before {
+      content: "✔️ ";
+      margin-right: 5px;
+    }
+
+    blockquote {
+      border-left: 4px solid #4CAF50;
+      padding-left: 15px;
+      margin: 20px 0;
+      background-color: #f9f9f9;
+      font-style: italic;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.85);
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .fa-facebook { color: #3b5998; }
+    .fa-whatsapp { color: #25D366; }
+    .fa-twitter { color: #1DA1F2; }
+    .fa-instagram { color: #C13584; }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        padding: 10px;
+      }
+
+      .hero {
+        padding: 60px 15px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1><i class="fas fa-globe"></i><i class="fas fa-desktop" style="margin-left: -10px;"></i> GLOBAL COMPUTERS Ltd.</h1>
+</header>
+
+<!-- Navigation -->
+<nav>
+  <a href="home page.html"><i class="fas fa-home"></i> HOME</a>
+  <a href="Services.php"><i class="fas fa-cogs"></i> SERVICES</a>
+  <a href="about us.php"><i class="fas fa-users"></i> ABOUT US</a>
+  <a href="Testimonials.php"><i class="fas fa-comment-dots"></i> TESTIMONIALS</a>
+  <a href="contact.php"><i class="fas fa-envelope"></i> CONTACT US</a>
+  <a href="sign up.php"><i class="fas fa-user-plus"></i> REGISTER</a>
+  <a href="admin login.php"><i class="fas fa-user-shield"></i> ADMIN</a>
+  <a href="terms.php"><i class="fas fa-file-contract"></i> TERMS</a>
+</nav>
+
+<!-- Hero Section with background -->
+<section class="hero">
+  <h1><i class="fas fa-bullhorn"></i> "Boost Your Online Presence"</h1>
+  <h2>Your trusted IT solutions partner in Kenya.</h2>
+  <button onclick="window.location.href='Services.php'"><i class="fas fa-arrow-circle-right"></i> Explore Services</button>
+  <h1>
+  <marquee style=color:yellow> REGISTER TODAY for bookings and Shop with us,,, more deals available . </marquee>
+  </h1>
+</section>
+
+<!-- About Us Section -->
+<section class="section" id="about">
+  <h2><i class="fas fa-users"></i> About Us</h2>
+  <p>Global Computers Ltd is a leading IT solutions provider in Kenya, dedicated to offering world-class computer products, system integration, and digital transformation services. Our mission is to empower businesses through innovative technology, exceptional service, and unmatched customer satisfaction.</p>
+</section>
+
+<!-- Services Section -->
+<section class="section" id="services">
+  <h2><i class="fas fa-cogs"></i> Our Services</h2>
+  <ul>
+    <li>Computer Sales, Repairs & Maintenance</li>
+    <li>Web Design & Hosting Services</li>
+    <li>Cloud Solutions & Backup Services</li>
+    <li>ICT Consultancy & System Integration</li>
+    <li>Cybersecurity & Data Protection</li>
+    <li>Networking & Structured Cabling</li>
+  </ul>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section" id="testimonials">
+  <h2><i class="fas fa-comment-dots"></i> Testimonials</h2>
+  <blockquote>
+    <strong>Lenny M., Nairobi:</strong> "Global Computers helped our company transform our online presence with a fantastic website and reliable IT support."
+  </blockquote>
+  <blockquote>
+    <strong>Bruno T., Mombasa:</strong> "Their customer service is top-notch. The support team is responsive, professional, and efficient."
+  </blockquote>
+  <blockquote>
+    <strong>Paul N., Kisumu:</strong> "I bought a laptop and got it delivered the same day! Highly recommend their services."
+  </blockquote>
+</section>
+
+<!-- Contact Section -->
+<section class="section" id="contact">
+  <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+  <p>
+    📍 Location: Nairobi, Kenya<br>
+    📞 Phone: +254 712 345678<br>
+    📧 Email: info@globalcomputers.co.ke
+  </p>
+  <p>Have a question? <a href="contact.php" style="color: #4CAF50;">Send us a message</a> and we’ll get back to you!</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 GLOBAL COMPUTERS Ltd. | Powered by <a href="#">YourTeam</a></p>
+  <div>
+    <strong>Site Map:</strong><br>
+    <a href="#">🏠 Home</a> |
+    <a href="#about">📄 About Us</a> |
+    <a href="#services">🛠️ Services</a> |
+    <a href="#testimonials">🌟 Testimonials</a> |
+    <a href="#contact">✉️ Contact</a> |
+    <a href="sign up.php">📝 Register</a> |
+    <a href="admin login.php">🔐 Admin</a> |
+    <a href="terms.php">📜 Terms</a>
+  </div>
+  <div class="social-icons">
+    <a href="https://facebook.com/YourPage" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://wa.me/YourNumber" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://twitter.com/YourHandle" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/YourPage" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
